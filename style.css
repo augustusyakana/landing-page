@@ -1,0 +1,15 @@
+
+
+.top-header {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.top-header img {
+    width: 40px;
+    margin-left: 100px;
+}
+
