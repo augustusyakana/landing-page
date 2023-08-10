@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Montserrat&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Montserrat&family=Raleway&display=swap');
 
 
 body {
@@ -117,7 +117,7 @@ button a {
 }
 
 .hero img{
-    flex-basis: 200px;
+    flex-basis: 100%;
     box-shadow: 3px 3px 10px  black;
 }
 
@@ -134,12 +134,15 @@ main {
     /* border-top: 2px solid black; */
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 5rem;
     flex-wrap: wrap;
     flex: 1;
     align-items: flex-start;
 
     margin-top: 20px;
+
+    margin-bottom: 100px;
 }
 
 .image {
@@ -151,6 +154,90 @@ main {
 
 .main-title {
     /* border: 2px solid blue; */
+    font-size: 28px;
     text-align: center;
     padding: 10px;
+}
+
+.quote-container {
+    /* border: 2px solid black; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #e5e7eb;
+    color: rgb(91, 91, 91);
+}
+
+.quote {
+    /* border: 2px solid red; */
+
+    margin: 100px;
+    width: 800px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+}
+
+.quoter {
+    align-self: flex-end;
+    margin-right: 110px;
+    margin-top: -15px;
+}
+
+.cta-back {
+    /* border: 2px solid red; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    /* border: 2px solid black; */
+    /* box-shadow: 5px 5px 10px black; */
+    width: 50%;
+    border-radius: 10px;
+    margin: 50px;
+    background: #6ea3f8;
+    height: 130px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta button {
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid white;
+
+    background: #6ea3f8;
+    padding: 5px;
+}
+
+.cta button:hover {
+    box-shadow: 3px 3px 10px red;
+}
+
+.cta-text {
+    color: white;
+}
+
+.cta-text p {
+    margin-top: -15px;
+}
+
+footer {
+    margin: auto;
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80px;
+    color: white;
 }
