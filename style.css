@@ -1,15 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Montserrat&family=Raleway:wght@100&display=swap');
 
+
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-image: url(img/unsplash-image-KXqHt7h6ESQ.jpg);
+    background-size: cover;
+    background-color: lightgreen;
+    background-blend-mode: multiply;
+}
 
 .top-header {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 8px;
 }
 
-.top-header img {
-    width: 40px;
-    margin-left: 100px;
+
+.top-header .logo img {
+    width: 15%;
+    margin-left: 80px;
+    padding: 10px;
+    flex-shrink: 0;
 }
 
+.links a:hover {
+    color: gray;
+}
+
+body a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+
+body h1, body h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body p {
+    font-family: 'Caudex', serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.bottom-header {
+    /* border: 2px solid red; */
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 3rem;
+    min-height: 500px;
+}
+
+.title {
+    /* border: 2px solid white; */
+
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1, 1, auto;
+    flex-basis: 40%;
+}
+
+.title h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+.title p {
+    color: white;
+    margin-top: -20px;
+    font-size: 18px;
+}
+
+.title button {
+    border-radius: 10px;
+    width: 100px;
+    background: #3882f6;
+    color: white;
+    padding: 5px;
+
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.title button:hover {
+    box-shadow: 3px 3px 10px red;
+}
+
+.hero {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    flex: 1, 1, auto;   
+}
+
+.hero img{
+    flex-basis: 200px;
+    box-shadow: 3px 3px 10px  black;
+}
+
+.image img {
+    width: 300px;
+    border: 2px solid gray;
+}
+
+main {
+    background: rgb(255, 255, 255);
+}
+
+.images {
+    /* border-top: 2px solid black; */
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: flex-start;
+
+    margin-top: 20px;
+}
+
+.image {
+    /* border: 2px solid black; */
+
+    flex-basis: 300px;
+    
+}
+
+.main-title {
+    /* border: 2px solid blue; */
+    text-align: center;
+    padding: 10px;
+}
