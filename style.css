@@ -16,7 +16,7 @@ header {
 .top-header {
     /* border: 2px solid black; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 8px;
 }
@@ -55,6 +55,7 @@ nav a {
 nav {
     display: flex;
     gap: 2rem;
+    margin-right: 30px;
 }
 
 .bottom-header {
